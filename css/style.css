@@ -1,0 +1,69 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: "Big shoulders display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  mix-blend-mode: screen;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 50px 0 20px 50px;
+  padding: 14px 40px;
+  border-radius: 20px;
+  border: 0px;
+}
+
+svg {
+  margin: 49px 0 15px 50px;
+}
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.icon {
+  font-size: 35px;
+  margin: 40px 50px 25px 50px;
+}
+
+.title {
+  margin: 20px 0 30px 50px;
+  font-size: 35px;
+}
+.description {
+  margin: 0 10px 30px 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+@media (min-width: 785px) {
+  main {
+    margin: 170px auto 130px;
+    max-width: 920px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    margin: 80px auto 100px;
+  }
+}
